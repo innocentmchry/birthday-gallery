@@ -15,226 +15,226 @@ const BIRTHDAY_NAME = 'Babe';
 // Default is 10 (photo1.jpg … photo10.jpg)
 const PHOTO_COUNT = 67;
 
-One message per photo slot — edit freely!
-const MESSAGES = [
-  `Happy Birthday, ${BIRTHDAY_NAME}! 🎂 May this day overflow with all the joy, laughter, and love you so richly deserve. You make every day brighter just by being in it!`,
-  `Another year around the sun, ${BIRTHDAY_NAME}! ✨ And with every single one you just keep getting more wonderful. Here's to a year even more amazing than the last!`,
-  `The world is a better place with you in it, ${BIRTHDAY_NAME}. 🌟 On your special day, may every moment be perfect and every wish come true. You deserve every bit of it!`,
-  `To the most incredible ${BIRTHDAY_NAME} — 🎉 thank you for all the memories, all the laughs, and all the love. Today we celebrate YOU, and it's not nearly enough!`,
-  `Happy Birthday! 💫 They say you only get better with age, and in your case that couldn't be more true. Keep shining, ${BIRTHDAY_NAME} — your best days are still ahead!`,
-  `🎈 Here's to ${BIRTHDAY_NAME} — may your birthday be as big, bold, and beautiful as your personality. Wishing you a day full of surprises and a year full of dreams come true!`,
-  `On your birthday and always, ${BIRTHDAY_NAME}, know that you are so deeply loved. 💝 May this day be the start of the most wonderful chapter yet. Cheers to you!`,
-  `Sending you a mountain of birthday hugs, ${BIRTHDAY_NAME}! 🤗 You have a rare gift for making everyone around you feel seen and loved. Today, we celebrate that gift!`,
-  `The years go by but you only grow more magnificent, ${BIRTHDAY_NAME}! 🌸 May your birthday be as radiant as you are and your year ahead be filled with pure magic!`,
-  `Happy Birthday, ${BIRTHDAY_NAME}! 🎊 You are a gift to everyone lucky enough to know you. May this beautiful day remind you just how much joy you bring to this world!`,
-];
-
-// const PHOTO_COUNT = 67;
-
-// const PHOTO_COUNT = 67;
-
+// One message per photo slot — edit freely!
 // const MESSAGES = [
-//   // 1
-//   `okay wait. this is literally the only photo where you look like you just finished a whole buffet. we both know the truth though. you eat like a bird and still have the audacity to look this adorable. happy birthday to the girl who survives on air and smiles. 🍽️💕`,
-
-//   // 2
-//   `twelve hours on the road to Silchar, and I swear it felt like twelve minutes. that's what happens when you're sitting next to someone who makes the world feel smaller and warmer. every pit stop, every song, every moment with you. I'd take that road a hundred times more. 🛣️💛`,
-
-//   // 3
-//   `and then we went back. and then we went back again. and somehow, every single time at that sizzler place, it felt like the first time all over again. look at us, genuinely the happiest people in that restaurant. some things are just worth repeating forever. 🥩✨`,
-
-//   // 4
-//   `IITG bus day. I know buses aren't really your thing, and I completely respect that. but can we acknowledge how clean those buses actually are? I hope the company made up for the ride. I really hope I didn't disappoint you that day. 🚌💙`,
-
-//   // 5
-//   `every time I look at this photo, I just feel this overwhelming urge to keep you close and protect you from every bad thing in the world. some people have that effect on you. you always will on me. 🥺💕`,
-
-//   // 6
-//   `okay yes, the movie was terrible. genuinely a waste of two hours of our lives that we'll never get back. BUT my credit card literally pays for movie tickets every month, so was it really a waste? technically free nonsense. would do it again without hesitation. 🎬💳`,
-
-//   // 7
-//   `there's something about this picture that makes me smile instantly. it feels warm, comfortable, and completely you. one of those moments that just feels good to remember. 👸✨`,
-
-//   // 8
-//   `some places become special because of the people you're with. every time I think about this one, I remember how easy it felt just being there with you. 🛍️💛`,
-
-//   // 9
-//   `I don't know why, but seeing you happy over the little things always makes me happy too. I hope life keeps giving you reasons to smile exactly like this. 🍜💕`,
-
-//   // 10
-//   `our spot. not because it was extraordinary or dramatic. just because it was ours. and somehow that made it perfect. 🍫💛`,
-
-//   // 11
-//   `this photo feels like one of those memories that stays bright no matter how much time passes. every little detail still makes me smile. 🌅📱💗`,
-
-//   // 12
-//   `there's a kind of happiness in this photo that feels impossible to fake. every time I see it, it makes me smile too. 😌💕`,
-
-//   // 13
-//   `another year of being completely, effortlessly wonderful. wishing you a birthday as beautiful as you are, full of warmth, good food, and every little thing that makes your eyes light up. you deserve the whole world today. 🎂✨`,
-
-//   // 14
-//   `happy birthday to the person who somehow manages to make ordinary days feel quietly special. may this year bring you everything your heart has been hoping for. you are so loved, more than you know. 💝🌟`,
-
-//   // 15
-//   `okay this one is entirely my fault and I am truly sorry. there was a rainbow. an actual rainbow. and I was standing right next to one of the most beautiful things I have ever seen, and somehow I couldn't fit both of you in the frame. the rainbow was pretty though. you were prettier. 🌈😅💕`,
-
-//   // 16
-//   `uff. this photo reminds me why I fell for you in the first place. some things really do speak for themselves. 😶‍🌫️💛`,
-
-//   // 17
-//   `excuse me, why are you buried in your phone looking for signal like that? put it down. your network is right here. five bars, always available, never drops, zero dead zones. 📶💙`,
-
-//   // 18
-//   `I don't even remember what went wrong here, but I remember wanting to make everything okay again. that's the feeling this photo gives me every time. 🥺✨`,
-
-//   // 19
-//   `some photos remind you of a place. this one reminds me of how lucky I felt to be there with you. 🌿👑`,
-
-//   // 20
-//   `happy birthday to someone who brings colour to every ordinary moment. wishing you a year that surprises you in the best ways, full of laughter, warmth, and everything you deserve. 🎉💕`,
-
-//   // 21
-//   `this photo feels peaceful in a way that's hard to explain. like everything was exactly where it was supposed to be for just one perfect moment. 🌳💛🙏`,
-
-//   // 22
-//   `THE photo. the one single proof that she can, in fact, stay awake during a journey when she really tries. I know what it costs you. I see the sacrifice. I deeply respect it. 🚆😴💕`,
-
-//   // 23
-//   `wishing you a birthday full of all the little moments that catch you off guard and make you smile for no reason. you deserve days that feel as good as you make mine feel every single time. 🌸✨`,
-
-//   // 24
-//   `every time I see this photo, I remember how happy that day felt. not because of where we were, but because I got to share it with you. 🏞️💛`,
-
-//   // 25
-//   `I don't know how to explain it, but this photo feels like one of those memories that gets more special every year. 👸🏔️✨`,
-
-//   // 26
-//   `us, in the valley, together. and this one I will keep forever. not because the view was beautiful, though it really was. but because you were right there next to me, and that was the whole point. 🏞️💕`,
-
-//   // 27
-//   `I love this one because it feels like a memory I accidentally got to keep. the kind that becomes more precious the longer you hold onto it. 📷🥺💛`,
-
-//   // 28
-//   `yes, I wore it intentionally. your favourite colour, your least enthusiastic expression, and still somehow the cutest selfie. you're smiling though. faintly. barely. but it's there and I'll take it. 😌💕`,
-
-//   // 29
-//   `every time I see this photo, I wonder if you realise how loved you are. because from where I'm standing, it's impossible not to adore you. 🌸😊`,
-
-//   // 30
-//   `this picture never fails to make me laugh. it's so unapologetically you, and honestly that's my favourite thing about it. 📸😂💕`,
-
-//   // 31
-//   `this photo just feels peaceful to me. the kind of peaceful that makes you forget everything else for a moment. every time I look at it, I feel a little calmer too. 📚✨`,
-
-//   // 32
-//   `this photo confuses me in the funniest way possible. everything looks perfect, you look happy, and yet somehow the review says otherwise. some mysteries aren't meant to be solved. 🍱😂💛`,
-
-//   // 33
-//   `I love photos like this because they remind me how much joy there is in simple moments. sometimes happiness really is that uncomplicated. 🚂🍽️💕`,
-
-//   // 34
-//   `this photo always makes me think the same thing. I got unbelievably lucky. that's it. that's the whole caption. 👑💛`,
-
-//   // 35
-//   `happy birthday to the girl who makes everything look effortless and beautiful. wishing you a year so good it surprises even you. you deserve all the soft, wonderful things life has quietly been saving up for you. 🎂💝`,
-
-//   // 36
-//   `every time I look at this one, it feels like I'm looking at the main character of a story I never want to end. 🎬✨💗`,
-
-//   // 37
-//   `some pictures capture a view. this one captures a feeling. and every time I see it, I remember how happy I was in that moment. 🏔️💛`,
-
-//   // 38
-//   `wishing you a birthday as warm and lovely as you are. may this year be filled with good surprises, great food, and every single thing that makes your eyes light up unexpectedly. you are so deeply loved. 💝🌟`,
-
-//   // 39
-//   `happy birthday football field. I mean, happy birthday my love. you know I say this with the most affection a person is capable of feeling. there is genuinely no one else in this world I would ever say that to. 🏈💛😂`,
-
-//   // 40
-//   `here's to another year of being exactly who you are, effortlessly kind, unexpectedly funny, and somehow always the most interesting person in the room. happy birthday babe. 🎉💕`,
-
-//   // 41
-//   `there's something comforting about this photo. everything feels quiet, peaceful, and exactly as it should be. 😴💛`,
-
-//   // 42
-//   `wishing you a year that matches your energy, warm, genuine, and a little bit magical in ways you didn't even plan for. happy birthday to someone who deserves every good thing without question. 🌸✨`,
-
-//   // 43
-//   `another year of memories, laughter, and all the small moments in between that end up meaning the most. I hope this birthday feels as special as you are to me. wishing you nothing but happiness, today and always. 💝🎂`,
-
-//   // 44
-//   `this photo makes me happy every single time. it feels light, free, and full of the kind of moments you wish could last a little longer. 🌿💛`,
-
-//   // 45
-//   `I remember seeing this photo and immediately forgetting about everything else around it. some people just have that effect on you. 💍✨💕`,
-
-//   // 46
-//   `do you still remember our first trip? because I do. every single detail of it, what we said, where we went, how it felt. some firsts stay with you forever. 🛣️💛`,
-
-//   // 47
-//   `I don't remember what happened here, but I remember thinking that even your dramatic moments somehow make me smile. 😤💕`,
-
-//   // 48
-//   `this photo feels like excitement. like the beginning of a memory that you already know you'll look back on someday. 🌙✨💛`,
-
-//   // 49
-//   `if happiness had a photograph, it would probably look a little bit like this. simple, comfortable, and shared with the right person. 🥤💕`,
-
-//   // 50
-//   `some photos feel like home. this is one of them. warm, familiar, and impossible not to love. 🏠✨💛`,
-
-//   // 51
-//   `I love this one because it feels so ordinary. and somehow those ordinary moments always end up becoming the memories I treasure most. 🍳💕`,
-
-//   // 52
-//   `wishing you a birthday as warm and full as the joy you quietly give to everyone around you without even realising it. you deserve all of it back today. 🎂✨`,
-
-//   // 53
-//   `this photo is dangerous. every time I look at it, I end up smiling like an idiot. 🥺💕`,
-
-//   // 54
-//   `wishing you a birthday that feels like the best version of a perfect day, warm, unhurried, and full of every little thing that matters most to you. 🌸💛`,
-
-//   // 55
-//   `every time I see this photo, I feel proud of you all over again. that's it. that's the caption. 🛵💙`,
-
-//   // 56
-//   `wishing you a year full of small adventures, warm surprises, and all the little moments that quietly become your favourite memories when you look back. happy birthday. 🎉💝`,
-
-//   // 57
-//   `this photo is pure happiness. no overthinking, no worries, no stress. just joy. 🍄😂💕`,
-
-//   // 58
-//   `this one always makes me wonder what was going through your mind. whatever it was, I hope it brought you where you wanted to be. 💭💛`,
-
-//   // 59
-//   `there are long captions and thoughtful captions and meaningful captions. and then there's this photo. cute. that's all. 🥺💕`,
-
-//   // 60
-//   `seeing you happy will never stop being one of my favourite things. that's what this photo reminds me of every single time. ✨💛`,
-
-//   // 61
-//   `wishing you a birthday as bright and easy as the happiness you bring to everyone around you without even trying. you deserve every good thing today and always. 🎂💝`,
-
-//   // 62
-//   `out of all the photos here, this one might be my favourite. not because it's perfect. just because it's us. 💕`,
-
-//   // 63
-//   `this photo feels like one of those days where everything quietly goes right. I wish more days felt exactly like this for you. 🌟💛`,
-
-//   // 64
-//   `I don't remember much about the omelette. I remember how happy that moment felt though, and honestly that's the important part. 🍳👑💕`,
-
-//   // 65
-//   `wishing you a year so full of love and good moments that you run out of words to describe how it feels. happy birthday to someone quietly extraordinary. 💝✨`,
-
-//   // 66
-//   `this photo makes me laugh because I know exactly what it's trying to convince me of. and no, I'm still not buying it. 🎭😂💕`,
-
-//   // 67
-//   `I don't remember taking this photo at all. but maybe that's what makes it special. a little forgotten moment that somehow found its way back to me. 📷😅💛`,
+//   `Happy Birthday, ${BIRTHDAY_NAME}! 🎂 May this day overflow with all the joy, laughter, and love you so richly deserve. You make every day brighter just by being in it!`,
+//   `Another year around the sun, ${BIRTHDAY_NAME}! ✨ And with every single one you just keep getting more wonderful. Here's to a year even more amazing than the last!`,
+//   `The world is a better place with you in it, ${BIRTHDAY_NAME}. 🌟 On your special day, may every moment be perfect and every wish come true. You deserve every bit of it!`,
+//   `To the most incredible ${BIRTHDAY_NAME} — 🎉 thank you for all the memories, all the laughs, and all the love. Today we celebrate YOU, and it's not nearly enough!`,
+//   `Happy Birthday! 💫 They say you only get better with age, and in your case that couldn't be more true. Keep shining, ${BIRTHDAY_NAME} — your best days are still ahead!`,
+//   `🎈 Here's to ${BIRTHDAY_NAME} — may your birthday be as big, bold, and beautiful as your personality. Wishing you a day full of surprises and a year full of dreams come true!`,
+//   `On your birthday and always, ${BIRTHDAY_NAME}, know that you are so deeply loved. 💝 May this day be the start of the most wonderful chapter yet. Cheers to you!`,
+//   `Sending you a mountain of birthday hugs, ${BIRTHDAY_NAME}! 🤗 You have a rare gift for making everyone around you feel seen and loved. Today, we celebrate that gift!`,
+//   `The years go by but you only grow more magnificent, ${BIRTHDAY_NAME}! 🌸 May your birthday be as radiant as you are and your year ahead be filled with pure magic!`,
+//   `Happy Birthday, ${BIRTHDAY_NAME}! 🎊 You are a gift to everyone lucky enough to know you. May this beautiful day remind you just how much joy you bring to this world!`,
 // ];
+
+// const PHOTO_COUNT = 67;
+
+// const PHOTO_COUNT = 67;
+
+const MESSAGES = [
+  // 1
+  `okay wait. this is literally the only photo where you look like you just finished a whole buffet. we both know the truth though. you eat like a bird and still have the audacity to look this adorable. happy birthday to the girl who survives on air and smiles. 🍽️💕`,
+
+  // 2
+  `twelve hours on the road to Silchar, and I swear it felt like twelve minutes. that's what happens when you're sitting next to someone who makes the world feel smaller and warmer. every pit stop, every song, every moment with you. I'd take that road a hundred times more. 🛣️💛`,
+
+  // 3
+  `and then we went back. and then we went back again. and somehow, every single time at that sizzler place, it felt like the first time all over again. look at us, genuinely the happiest people in that restaurant. some things are just worth repeating forever. 🥩✨`,
+
+  // 4
+  `IITG bus day. I know buses aren't really your thing, and I completely respect that. but can we acknowledge how clean those buses actually are? I hope the company made up for the ride. I really hope I didn't disappoint you that day. 🚌💙`,
+
+  // 5
+  `every time I look at this photo, I just feel this overwhelming urge to keep you close and protect you from every bad thing in the world. some people have that effect on you. you always will on me. 🥺💕`,
+
+  // 6
+  `okay yes, the movie was terrible. genuinely a waste of two hours of our lives that we'll never get back. BUT my credit card literally pays for movie tickets every month, so was it really a waste? technically free nonsense. would do it again without hesitation. 🎬💳`,
+
+  // 7
+  `there's something about this picture that makes me smile instantly. it feels warm, comfortable, and completely you. one of those moments that just feels good to remember. 👸✨`,
+
+  // 8
+  `some places become special because of the people you're with. every time I think about this one, I remember how easy it felt just being there with you. 🛍️💛`,
+
+  // 9
+  `I don't know why, but seeing you happy over the little things always makes me happy too. I hope life keeps giving you reasons to smile exactly like this. 🍜💕`,
+
+  // 10
+  `our spot. not because it was extraordinary or dramatic. just because it was ours. and somehow that made it perfect. 🍫💛`,
+
+  // 11
+  `this photo feels like one of those memories that stays bright no matter how much time passes. every little detail still makes me smile. 🌅📱💗`,
+
+  // 12
+  `there's a kind of happiness in this photo that feels impossible to fake. every time I see it, it makes me smile too. 😌💕`,
+
+  // 13
+  `another year of being completely, effortlessly wonderful. wishing you a birthday as beautiful as you are, full of warmth, good food, and every little thing that makes your eyes light up. you deserve the whole world today. 🎂✨`,
+
+  // 14
+  `happy birthday to the person who somehow manages to make ordinary days feel quietly special. may this year bring you everything your heart has been hoping for. you are so loved, more than you know. 💝🌟`,
+
+  // 15
+  `okay this one is entirely my fault and I am truly sorry. there was a rainbow. an actual rainbow. and I was standing right next to one of the most beautiful things I have ever seen, and somehow I couldn't fit both of you in the frame. the rainbow was pretty though. you were prettier. 🌈😅💕`,
+
+  // 16
+  `uff. this photo reminds me why I fell for you in the first place. some things really do speak for themselves. 😶‍🌫️💛`,
+
+  // 17
+  `excuse me, why are you buried in your phone looking for signal like that? put it down. your network is right here. five bars, always available, never drops, zero dead zones. 📶💙`,
+
+  // 18
+  `I don't even remember what went wrong here, but I remember wanting to make everything okay again. that's the feeling this photo gives me every time. 🥺✨`,
+
+  // 19
+  `some photos remind you of a place. this one reminds me of how lucky I felt to be there with you. 🌿👑`,
+
+  // 20
+  `happy birthday to someone who brings colour to every ordinary moment. wishing you a year that surprises you in the best ways, full of laughter, warmth, and everything you deserve. 🎉💕`,
+
+  // 21
+  `this photo feels peaceful in a way that's hard to explain. like everything was exactly where it was supposed to be for just one perfect moment. 🌳💛🙏`,
+
+  // 22
+  `THE photo. the one single proof that she can, in fact, stay awake during a journey when she really tries. I know what it costs you. I see the sacrifice. I deeply respect it. 🚆😴💕`,
+
+  // 23
+  `wishing you a birthday full of all the little moments that catch you off guard and make you smile for no reason. you deserve days that feel as good as you make mine feel every single time. 🌸✨`,
+
+  // 24
+  `every time I see this photo, I remember how happy that day felt. not because of where we were, but because I got to share it with you. 🏞️💛`,
+
+  // 25
+  `I don't know how to explain it, but this photo feels like one of those memories that gets more special every year. 👸🏔️✨`,
+
+  // 26
+  `us, in the valley, together. and this one I will keep forever. not because the view was beautiful, though it really was. but because you were right there next to me, and that was the whole point. 🏞️💕`,
+
+  // 27
+  `I love this one because it feels like a memory I accidentally got to keep. the kind that becomes more precious the longer you hold onto it. 📷🥺💛`,
+
+  // 28
+  `yes, I wore it intentionally. your favourite colour, your least enthusiastic expression, and still somehow the cutest selfie. you're smiling though. faintly. barely. but it's there and I'll take it. 😌💕`,
+
+  // 29
+  `every time I see this photo, I wonder if you realise how loved you are. because from where I'm standing, it's impossible not to adore you. 🌸😊`,
+
+  // 30
+  `this picture never fails to make me laugh. it's so unapologetically you, and honestly that's my favourite thing about it. 📸😂💕`,
+
+  // 31
+  `this photo just feels peaceful to me. the kind of peaceful that makes you forget everything else for a moment. every time I look at it, I feel a little calmer too. 📚✨`,
+
+  // 32
+  `this photo confuses me in the funniest way possible. everything looks perfect, you look happy, and yet somehow the review says otherwise. some mysteries aren't meant to be solved. 🍱😂💛`,
+
+  // 33
+  `I love photos like this because they remind me how much joy there is in simple moments. sometimes happiness really is that uncomplicated. 🚂🍽️💕`,
+
+  // 34
+  `this photo always makes me think the same thing. I got unbelievably lucky. that's it. that's the whole caption. 👑💛`,
+
+  // 35
+  `happy birthday to the girl who makes everything look effortless and beautiful. wishing you a year so good it surprises even you. you deserve all the soft, wonderful things life has quietly been saving up for you. 🎂💝`,
+
+  // 36
+  `every time I look at this one, it feels like I'm looking at the main character of a story I never want to end. 🎬✨💗`,
+
+  // 37
+  `some pictures capture a view. this one captures a feeling. and every time I see it, I remember how happy I was in that moment. 🏔️💛`,
+
+  // 38
+  `wishing you a birthday as warm and lovely as you are. may this year be filled with good surprises, great food, and every single thing that makes your eyes light up unexpectedly. you are so deeply loved. 💝🌟`,
+
+  // 39
+  `happy birthday football field. I mean, happy birthday my love. you know I say this with the most affection a person is capable of feeling. there is genuinely no one else in this world I would ever say that to. 🏈💛😂`,
+
+  // 40
+  `here's to another year of being exactly who you are, effortlessly kind, unexpectedly funny, and somehow always the most interesting person in the room. happy birthday babe. 🎉💕`,
+
+  // 41
+  `there's something comforting about this photo. everything feels quiet, peaceful, and exactly as it should be. 😴💛`,
+
+  // 42
+  `wishing you a year that matches your energy, warm, genuine, and a little bit magical in ways you didn't even plan for. happy birthday to someone who deserves every good thing without question. 🌸✨`,
+
+  // 43
+  `another year of memories, laughter, and all the small moments in between that end up meaning the most. I hope this birthday feels as special as you are to me. wishing you nothing but happiness, today and always. 💝🎂`,
+
+  // 44
+  `this photo makes me happy every single time. it feels light, free, and full of the kind of moments you wish could last a little longer. 🌿💛`,
+
+  // 45
+  `I remember seeing this photo and immediately forgetting about everything else around it. some people just have that effect on you. 💍✨💕`,
+
+  // 46
+  `do you still remember our first trip? because I do. every single detail of it, what we said, where we went, how it felt. some firsts stay with you forever. 🛣️💛`,
+
+  // 47
+  `I don't remember what happened here, but I remember thinking that even your dramatic moments somehow make me smile. 😤💕`,
+
+  // 48
+  `this photo feels like excitement. like the beginning of a memory that you already know you'll look back on someday. 🌙✨💛`,
+
+  // 49
+  `if happiness had a photograph, it would probably look a little bit like this. simple, comfortable, and shared with the right person. 🥤💕`,
+
+  // 50
+  `some photos feel like home. this is one of them. warm, familiar, and impossible not to love. 🏠✨💛`,
+
+  // 51
+  `I love this one because it feels so ordinary. and somehow those ordinary moments always end up becoming the memories I treasure most. 🍳💕`,
+
+  // 52
+  `wishing you a birthday as warm and full as the joy you quietly give to everyone around you without even realising it. you deserve all of it back today. 🎂✨`,
+
+  // 53
+  `this photo is dangerous. every time I look at it, I end up smiling like an idiot. 🥺💕`,
+
+  // 54
+  `wishing you a birthday that feels like the best version of a perfect day, warm, unhurried, and full of every little thing that matters most to you. 🌸💛`,
+
+  // 55
+  `every time I see this photo, I feel proud of you all over again. that's it. that's the caption. 🛵💙`,
+
+  // 56
+  `wishing you a year full of small adventures, warm surprises, and all the little moments that quietly become your favourite memories when you look back. happy birthday. 🎉💝`,
+
+  // 57
+  `this photo is pure happiness. no overthinking, no worries, no stress. just joy. 🍄😂💕`,
+
+  // 58
+  `this one always makes me wonder what was going through your mind. whatever it was, I hope it brought you where you wanted to be. 💭💛`,
+
+  // 59
+  `there are long captions and thoughtful captions and meaningful captions. and then there's this photo. cute. that's all. 🥺💕`,
+
+  // 60
+  `seeing you happy will never stop being one of my favourite things. that's what this photo reminds me of every single time. ✨💛`,
+
+  // 61
+  `wishing you a birthday as bright and easy as the happiness you bring to everyone around you without even trying. you deserve every good thing today and always. 🎂💝`,
+
+  // 62
+  `out of all the photos here, this one might be my favourite. not because it's perfect. just because it's us. 💕`,
+
+  // 63
+  `this photo feels like one of those days where everything quietly goes right. I wish more days felt exactly like this for you. 🌟💛`,
+
+  // 64
+  `I don't remember much about the omelette. I remember how happy that moment felt though, and honestly that's the important part. 🍳👑💕`,
+
+  // 65
+  `wishing you a year so full of love and good moments that you run out of words to describe how it feels. happy birthday to someone quietly extraordinary. 💝✨`,
+
+  // 66
+  `this photo makes me laugh because I know exactly what it's trying to convince me of. and no, I'm still not buying it. 🎭😂💕`,
+
+  // 67
+  `I don't remember taking this photo at all. but maybe that's what makes it special. a little forgotten moment that somehow found its way back to me. 📷😅💛`,
+];
 
 // Gradient backgrounds shown while photos load (or if no photo added yet)
 const GRADIENTS = [
