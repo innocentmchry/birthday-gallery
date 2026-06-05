@@ -13,7 +13,7 @@ const BIRTHDAY_NAME = 'Babe';
 
 // Number of photos — must match the files in /images/
 // Default is 10 (photo1.jpg … photo10.jpg)
-const PHOTO_COUNT = 10;
+const PHOTO_COUNT = 67;
 
 // One message per photo slot — edit freely!
 const MESSAGES = [
