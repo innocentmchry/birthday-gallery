@@ -1,0 +1,11 @@
+Add your birthday photos here!
+
+Name them:
+  photo1.jpg
+  photo2.jpg
+  photo3.jpg
+  ...
+  photo10.jpg
+
+Then open index.html in your browser.
+See README.md for full instructions.
