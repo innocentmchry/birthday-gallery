@@ -29,7 +29,7 @@ const BIRTHDAY_NAME = 'Babe';
 //   `Happy Birthday, ${BIRTHDAY_NAME}! 🎊 You are a gift to everyone lucky enough to know you. May this beautiful day remind you just how much joy you bring to this world!`,
 // ];
 
-const PHOTO_COUNT = 67;
+// const PHOTO_COUNT = 67;
 
 const PHOTO_COUNT = 67;
 
